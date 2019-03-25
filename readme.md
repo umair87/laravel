@@ -2,35 +2,35 @@
 
 
 #1. Clone GitHub repo for this project locally
-git clone https://github.com/umair87/laravel.git/ projectName
+"git clone https://github.com/umair87/laravel.git/ project-name"
 
 #2. cd into your project
-cd project-name
+"cd project-name"
 
 #3. Install Composer Dependencies
-composer install
+"composer install"
 
 #4. Install nodejs go to http://nodejs.org
 
 #5. Install NPM Dependencies
-npm install
+"npm install"
 
 #6. Start up Webpack
-webpack --watch
+"webpack --watch"
 
 #7. Create a .env file that we can start to fill out to do things like database configuration
-cp .env.example .env
+"cp .env.example .env" 
 This will create a copy of the .env.example file in your project and name the copy simply .env
 
 #8. Generate an app encryption key
-php artisan key:generate
+"php artisan key:generate"
 
 #9. Create an empty database for our application
 
 #10. In the .env file, add database information to allow Laravel to connect to the database
 
 #11. Migrate the database
-php artisan migrate
+"php artisan migrate"
 
 #12. Import the database from the provided SQL dump file.
 
